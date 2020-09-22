@@ -1,0 +1,6 @@
+.env*
+.mnemonic
+node_modules/
+dist/
+cache/
+coverage*
