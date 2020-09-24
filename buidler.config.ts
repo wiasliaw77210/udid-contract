@@ -45,7 +45,7 @@ const Config: BuidlerConfig = {
 
   // solidity compiler
   solc: {
-    version: '0.5.8',
+    version: '0.6.7',
   },
 
   // repo path

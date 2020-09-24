@@ -6,6 +6,11 @@ describe('Test:SimpleStorage', async () => {
     await deployments.fixture();
   });
 
+  it('SimpleStorage:getLatestPrice', async () => {
+    const Contract = await ethers.getContract('SimpleStorage');
+    assert.equal(await Contract.getLatestPrice(), 2);
+  });
+
   it('SimpleStorage:Get', async () => {
     const Contract = await ethers.getContract('SimpleStorage');
     assert.equal(await Contract.get(), 0);
