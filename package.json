@@ -6,8 +6,10 @@
   "scripts": {
     "test": "buidler test",
     "coverage": "buidler --network coverage coverage",
+    "ropsten:deploy": "buidler --network ropsten deploy",
     "rinkeby:deploy": "buidler --network rinkeby deploy",
-    "kovan:deploy": "buidler --network kovan deploy"
+    "kovan:deploy": "buidler --network kovan deploy",
+    "clean": "buidler clean"
   },
   "repository": {
     "type": "git",

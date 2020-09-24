@@ -22,6 +22,10 @@ const Config: BuidlerConfig = {
   defaultNetwork: 'buidlerevm',
 
   networks: {
+    ropsten: {
+      url: `https://ropsten.infura.io/v3/${process.env.INFURA_PROJ_ID}`,
+      accounts: {mnemonic},
+    },
     rinkeby: {
       url: `https://rinkeby.infura.io/v3/${process.env.INFURA_PROJ_ID}`,
       accounts: {mnemonic},
